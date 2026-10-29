@@ -25,3 +25,5 @@
 @media(max-width:480px){.header{height:auto;min-height:85px;gap:16px;padding-block:18px}.header nav{flex-wrap:wrap;justify-content:flex-end;gap:6px 10px}.header nav a{white-space:nowrap}.wordmark{flex-shrink:0}}
 
 .writing strong.author-self{font-size:inherit;font-weight:700;color:inherit}
+
+.hero{grid-template-columns:1fr;gap:0}.hero-copy{max-width:780px}.hero .bio{max-width:680px}
