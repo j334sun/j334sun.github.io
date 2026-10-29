@@ -9,3 +9,17 @@
 .education .coursework{font-size:13px;line-height:1.9;color:var(--muted)}.coursework strong{font-weight:500;color:var(--ink)}
 .skills h3{font-size:19px;margin:28px 0 14px}.contact h2{margin-bottom:24px}
 @media(max-width:700px){.header nav{gap:13px;font-size:10px}.section{padding-top:44px;padding-bottom:44px}.section-heading h2,.background h2,.contact h2{font-size:30px}.writing{padding:0}.writing li{padding:20px 0}.writing li:first-child{padding-top:20px}}
+
+/* Separate personal page. */
+.others-page{min-height:100vh;display:flex;flex-direction:column}
+.others-main{flex:1;display:flex;align-items:center;justify-content:center;padding-top:90px;padding-bottom:110px}
+.others-content{width:min(100%,620px);text-align:center}
+.others-content h1{font-size:64px;line-height:1.1;margin:0 0 18px;letter-spacing:-2px}
+.others-subtitle{font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:23px;line-height:1.5;color:var(--muted);margin-bottom:48px}
+.construction-note{border-top:1px solid var(--line);padding-top:34px}
+.construction-note h2{font-family:Arial,Helvetica,sans-serif;font-size:18px;letter-spacing:0;line-height:1.5;margin:0 0 12px}
+.construction-note p{font-size:14px;line-height:1.8;max-width:400px;margin:0 auto 28px;color:var(--muted)}
+.construction-note .text-link{display:inline-block;font-size:12px}
+.header nav a[aria-current="page"]{color:var(--ink);text-decoration:underline;text-underline-offset:6px}
+@media(max-width:700px){.others-main{padding-top:70px;padding-bottom:80px}.others-content h1{font-size:48px}.others-subtitle{font-size:20px;margin-bottom:36px}}
+@media(max-width:480px){.header{height:auto;min-height:85px;gap:16px;padding-block:18px}.header nav{flex-wrap:wrap;justify-content:flex-end;gap:6px 10px}.header nav a{white-space:nowrap}.wordmark{flex-shrink:0}}
